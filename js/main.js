@@ -15,41 +15,41 @@ commentVal.addEventListener("keypress", (e) => {
 });
 
 function addComment() {
-  // const list = document.createElement("li");
-  // const mainDiv = document.createElement("div");
-  // const subDiv = document.createElement("div");
-  // const idDiv = document.createElement("div");
-  // const descDiv = document.createElement("div");
-  // const delBtn = document.createElement("button");
-  // const likeBtn = document.createElement("i");
+  const list = document.createElement("li");
+  const mainDiv = document.createElement("div");
+  const subDiv = document.createElement("div");
+  const idDiv = document.createElement("div");
+  const descDiv = document.createElement("div");
+  const delBtn = document.createElement("button");
+  const likeBtn = document.createElement("i");
 
-  // list.classList.add("description-comment");
-  // mainDiv.classList.add("article-info");
-  // subDiv.classList.add("comment-function");
-  // idDiv.classList.add("ariticle-id");
-  // descDiv.classList.add("article-description");
-  // delBtn.classList.add("comment-delete");
-  // likeBtn.classList.add("fa-regular");
-  // likeBtn.classList.add("fa-heart");
+  list.classList.add("description-comment");
+  mainDiv.classList.add("article-info");
+  subDiv.classList.add("comment-function");
+  idDiv.classList.add("ariticle-id");
+  descDiv.classList.add("article-description");
+  delBtn.classList.add("comment-delete");
+  likeBtn.classList.add("fa-regular");
+  likeBtn.classList.add("fa-heart");
 
-  // const idContent = document.createTextNode("rntnwjd");
-  // const newContent = document.createTextNode(commentVal.value);
-  // const delContent = document.createTextNode("삭제");
+  const idContent = document.createTextNode("rntnwjd");
+  const newContent = document.createTextNode(commentVal.value);
+  const delContent = document.createTextNode("삭제");
 
-  // idDiv.appendChild(idContent);
-  // descDiv.appendChild(newContent);
-  // delBtn.appendChild(delContent);
+  idDiv.appendChild(idContent);
+  descDiv.appendChild(newContent);
+  delBtn.appendChild(delContent);
 
-  // mainDiv.appendChild(idDiv);
-  // mainDiv.appendChild(descDiv);
+  mainDiv.appendChild(idDiv);
+  mainDiv.appendChild(descDiv);
 
-  // subDiv.appendChild(delBtn);
-  // subDiv.appendChild(likeBtn);
+  subDiv.appendChild(delBtn);
+  subDiv.appendChild(likeBtn);
 
-  // list.appendChild(mainDiv);
-  // list.appendChild(subDiv);
+  list.appendChild(mainDiv);
+  list.appendChild(subDiv);
 
-  // curDiv.appendChild(list);
+  curDiv.appendChild(list);
 
   // Input창 reset
   commentVal.value = "";
